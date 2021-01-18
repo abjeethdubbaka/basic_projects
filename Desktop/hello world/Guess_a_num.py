@@ -15,10 +15,10 @@ while guess >=0:
             print('guess a higher num')
 
     if guess> 1:
-            check(num)
+        check(num)
     elif guess == 1:
-            check(num)
-            print('this is your last chance ')
+        check(num)
+        print('this is your last chance ')
     else:
-            print('you lost')
-            guess -= 1
+        print('you lost')
+    guess -= 1
